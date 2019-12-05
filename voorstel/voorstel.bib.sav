@@ -54,4 +54,13 @@
   url    = {https://diplomatie.belgium.be/nl/Beleid/Ontwikkelingssamenwerking/Wie_zijn_we/Onze_organisatie/ODA/ODA-databank},
 }
 
+@Thesis{SALAS-PILCO2014,
+  author      = {Sdenka Zobeida SALAS-PILCO},
+  title       = {ICT in Peruvian education: An overview of its development},
+  type        = {a},
+  institution = {University of Hong Kong},
+  year        = {2014},
+  date        = {2014-10-01},
+}
+
 @Comment{jabref-meta: databaseType:biblatex;}
