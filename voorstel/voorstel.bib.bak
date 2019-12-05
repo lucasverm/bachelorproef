@@ -39,19 +39,4 @@
   date        = {2019-02-28},
 }
 
-@WWW{ITU2018,
-  author = {ITU},
-  editor = {kaka},
-  title  = {Individuals using the Internet},
-  year   = {2018},
-  url    = {https://data.worldbank.org/indicator/IT.NET.USER.ZS?most_recent_year_desc=true},
-}
-
-@WWW{Belgium2008-2024,
-  author = {Diplomatie Belgium},
-  title  = {DGD-financieringen per land},
-  year   = {2008-2024},
-  url    = {https://diplomatie.belgium.be/nl/Beleid/Ontwikkelingssamenwerking/Wie_zijn_we/Onze_organisatie/ODA/ODA-databank},
-}
-
 @Comment{jabref-meta: databaseType:biblatex;}

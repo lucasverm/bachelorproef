@@ -16,7 +16,9 @@
 % dat je in ``biblatex''-modus opslaat: File > Switch to BibLaTeX mode.
 
 \documentclass{voorstel}
+\usepackage{biblatex}
 
+\addbibresource{voorstel.bib}
 \usepackage{lipsum}
 
 %------------------------------------------------------------------------------
@@ -25,7 +27,7 @@
 
 %---------- Titel & auteur ----------------------------------------------------
 
-\PaperTitle{Wat is ICT4Development, en hoe kan het de levenskwaliteit in Peru verbeteren?}
+\PaperTitle{Wat is ICT4Development, en hoe kan het de ontwikkeling van Peru stimuleren?}
 \PaperType{Onderzoeksvoorstel Bachelorproef 2019-2020} % Type document
 
 % TODO: vul je eigen naam in als auteur, geef ook je emailadres mee!
@@ -64,8 +66,8 @@ Vergeet ook niet je co-promotor op te geven.
 %
 % De andere sleutelwoorden zijn vrij te kiezen
 
-\Keywords{ICT4Development. ICT4D --- Ontwikkeling --- Peru --- } % Keywords
-\newcommand{\keywordname}{Sleutelwoorden} % Defines the keywords heading name
+\Keywords{Andere(ICT4Development) } % Keywords
+\newcommand{\keywordname}{Andere (specifieer)} % Defines the keywords heading name
 
 %---------- Titel, inhoud -----------------------------------------------------
 
@@ -89,9 +91,7 @@ Vergeet ook niet je co-promotor op te geven.
 % TODO: de gerefereerde werken moeten in BibTeX-bestand ``voorstel.bib''
 % voorkomen. Gebruik JabRef om je bibliografie bij te houden en vergeet niet
 % om compatibiliteit met Biber/BibLaTeX aan te zetten (File > Switch to
-% BibLaTeX mode)
-
+% BibLaTeX mode) 
 \phantomsection
-\printbibliography[heading=bibintoc]
-
+\printbibliography
 \end{document}
